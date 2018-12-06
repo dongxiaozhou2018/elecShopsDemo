@@ -1,0 +1,128 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+a
+{
+    color: white;
+    text-decoration:none;
+}
+#container
+{
+    width: 100%;
+    height: 92%;
+    background-color: aliceblue;
+}
+#title
+{
+    width: 98%;
+    height: 120px;
+    margin-left: 15px;
+    border: 0px;
+    font-size: 66px;
+    color: #228899;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#content
+{
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#leftmenu
+{
+    width: 20%;
+    height: 595px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid darkslateblue;
+}
+#managermenu
+{
+    width: 96%;
+    height: 120px;
+    margin: 3px;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5890cf;
+    border: 1px solid #5890cf;
+    text-align: center;
+}
+.menustyle
+{
+    width: 96%;
+    height: 44px;
+    margin: 3px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #5890cf;
+    text-align: center;
+    cursor: pointer;
+}
+#selectmenu:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#addmenu:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#updatemenu:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#classesmenu:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#homepagemenu:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#orderinfo:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#aboutus:hover
+{
+    background-color: #5890cf;
+    color: #ffffff;
+}
+#right
+{
+    width: 80%;
+    height: 595px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+#right0
+{
+    color: #228899;
+    font-size: 100px;
+    font-family: "fantasy";
+    margin-left: 150px;
+    margin-top: 200px;
+}

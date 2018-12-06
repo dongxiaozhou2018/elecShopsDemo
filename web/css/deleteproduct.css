@@ -1,0 +1,105 @@
+a
+{
+    color: white;
+    text-decoration:none;
+}
+#right3
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+ul
+{
+    list-style: none;
+}
+/*左边样式*/
+#deleteproduct_left
+{
+    width: 33%;
+    height: 100%;
+}
+#goodsID li
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+}
+#goodsID li div
+{
+    width: 50%;
+    margin: 2px;
+}
+#goodsID li input
+{
+    width: 50%;
+    margin: 2px;
+}
+#goodsID li #goods_name_input
+{
+    width: 100%;
+}
+#goodsname li #goods_date_input
+{
+    width: 100%;
+}
+
+/*中间样式*/
+#deleteproduct_center
+{
+    width: 33%;
+    height: 100%;
+}
+#goodsmessage li
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+}
+#goodsmessage li .product_introduce
+{
+    width: 100%;
+    height: 96px;
+    margin: 2px;
+    /*overflow:scroll;*/
+}
+#goodsmessage li input
+{
+    width: 100%;
+    height: 25px;
+    margin: 2px;
+}
+#goodsmessage li .product_introduce_input
+{
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+}
+.deletebutten
+{
+    background-color: #228899;
+    color: #ffffff;
+}
+
+/*右边样式*/
+#deleteproduct_right
+{
+    width: 34%;
+    height: 100%;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.picture_button
+{
+    /*background-color: #5890cf;*/
+    color: #5890cf;
+}
+.goodspicture li .product_picture
+{
+    width: 100%;
+    height: 186px;
+    border:1px;
+    margin: 2px;
+    /*overflow:scroll;*/
+}
